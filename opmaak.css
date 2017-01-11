@@ -1,0 +1,46 @@
+body {
+	background-color: blue;
+	font-family: sans-serif;
+}
+#logo {
+	width: 530px;
+	height: 150px;
+	margin-top: -150px;
+	margin-left: 500px;
+	position: absolute;
+}
+#all {
+	height: 500px;
+	width: 530px;
+	background: white;
+	margin: auto;
+	position: relative;
+	margin-top: 150px;
+}
+#container_1, #container_2,#container_3, #container_4, #container_5 {
+	height: 90px;
+	width: 510px;
+	margin: 10px;
+	background: black;
+}
+.childeren_1, .childeren_2, .childeren_3, .childeren_4, .childeren_5 {
+	height: 80px;
+	width: 98px;
+	border-radius: 50%;
+	background: white;
+	display: inline;
+	position: absolute;
+	margin: 5px;
+}
+#child_12, #child_22, #child_32, #child_42, #child_52 {
+	margin-left: 107px;
+}
+#child_13, #child_23, #child_33, #child_43, #child_53 {
+	margin-left: 210px;
+}
+#child_14, #child_24, #child_34, #child_44, #child_54 {
+	margin-left: 310px;
+}
+#child_15, #child_25, #child_35, #child_45, #child_55 {
+	margin-left: 410px;
+}
