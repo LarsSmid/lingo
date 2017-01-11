@@ -1,12 +1,13 @@
 body {
-	background-color: blue;
+	background-image: url("achtergrond.jpg");
+	background-size: 100%;
 	font-family: sans-serif;
 }
 #logo {
 	width: 530px;
 	height: 150px;
 	margin-top: -150px;
-	margin-left: 500px;
+	margin-left: 495px;
 	position: absolute;
 }
 #all {
@@ -25,9 +26,9 @@ body {
 }
 .childeren_1, .childeren_2, .childeren_3, .childeren_4, .childeren_5 {
 	height: 80px;
-	width: 98px;
+	width: 100px;
 	border-radius: 50%;
-	background: white;
+	background: black;
 	display: inline;
 	position: absolute;
 	margin: 5px;
@@ -43,4 +44,12 @@ body {
 }
 #child_15, #child_25, #child_35, #child_45, #child_55 {
 	margin-left: 410px;
+}
+.text {
+	border: none;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 40px;
 }
