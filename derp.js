@@ -1,4 +1,4 @@
-var words = [
+var myArray = [
 	"appel",
 	"aldus",
 	"afwas",
@@ -479,4 +479,8 @@ var words = [
 	"zever",
 	"zeeen"];
 
-	console.log(words);
+	var rand = myArray[Math.floor(Math.random() * myArray.length)];
+
+function Begin() {
+	console.log(rand)
+}

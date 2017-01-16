@@ -53,3 +53,9 @@ body {
 	text-align: center;
 	font-size: 40px;
 }
+.text:hover {
+	background-color: lightgray;
+}
+#uitleg_text {
+	display: none;
+}
