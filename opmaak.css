@@ -58,4 +58,8 @@ body {
 }
 #uitleg_text {
 	display: none;
+	height: 200px;
+	width: 200px;
+	background: blue;
+	
 }

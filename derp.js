@@ -484,3 +484,6 @@ var myArray = [
 function Begin() {
 	console.log(rand)
 }
+function uitleg() {
+	document.getElementById('uitleg_text').style.display = "inline";
+}
