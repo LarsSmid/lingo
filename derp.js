@@ -291,6 +291,7 @@ var myArray = [
 	"plein",
 	"pegel",
 	"paars",
+	"pagga",
 	"prijs",
 	"piano",
 	"pixel",
@@ -483,7 +484,29 @@ var myArray = [
 
 function Begin() {
 	console.log(rand)
-}
+};
 function uitleg() {
 	document.getElementById('uitleg_text').style.display = "inline";
+};
+
+var word = rand;
+word = word.split("");
+	
+var position = 1;
+
+function check(pos) {
+	var inputs = document.querySelectorAll('#container_'+pos+' > input');
+	var position = 1+1;
+	for(var i = 0; i < inputs.length; i++) {
+		var input = inputs[i];
+		if(word[i] == input.value) {
+			input.style['background-color'] = 'green';
+		} else {
+			//orange
+
+			else{
+
+				//red
+		}
+	}
 }
